@@ -48,10 +48,11 @@ header nav li a::before {
 }
 /* MAIN */
 #sidebar{
-    position:sticky;
+    position:fixed;
     top:500px;
+    right:0px;
     /*right:0px;*/
-    float:right;
+    /*loat:right;*/
     font-size: 4rem;
 }
 
@@ -63,6 +64,7 @@ header nav li a::before {
 }
 #top{
     color:#a02571;
+    margin-bottom:40px;
 }
 
 main {
